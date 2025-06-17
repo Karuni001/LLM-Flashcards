@@ -23,6 +23,7 @@ This project is a simple and effective Streamlit web app that uses a lightweight
 
 ---
 
+
 ## 🔧 Installation
 
 Clone the repo and install dependencies:
