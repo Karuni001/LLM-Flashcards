@@ -1,40 +1,37 @@
-# 📚 Flashcard Generator App
+# 📚 Flashcard Generator App using Streamlit & HuggingFace
 
-An interactive Streamlit app that uses a lightweight LLM (`flan-t5-small`) to generate educational flashcards from user-provided **text** or **PDF** content.
+This project is a simple and effective Streamlit web app that uses a lightweight HuggingFace language model (`flan-t5-small`) to generate **multiple flashcards** from **uploaded PDFs or user-inputted text**. Perfect for study material extraction and revision!
 
 ---
 
 ## 🚀 Features
 
-- 🔁 Generate multiple Q&A flashcards from any text input.
-- 📄 Upload PDF files for automatic flashcard generation.
-- 📌 Simple, responsive Streamlit interface.
-- 💡 Built using Hugging Face Transformers (`flan-t5-small`).
+- ✅ Upload a PDF or type/paste any text
+- 📄 Automatically generates multiple flashcards (Q&A)
+- 🔁 Flip flashcards interactively
+- 🎯 Lightweight model (`flan-t5-small`) for fast generation
+- 🧠 Built using HuggingFace Transformers + Streamlit
 
 ---
 
-## 🖥️ Tech Stack
+## 📦 Tech Stack
 
 - Python 3.10+
-- [Streamlit](https://streamlit.io/)
-- [Transformers](https://huggingface.co/docs/transformers/index)
-- PyPDF2
+- Streamlit
+- Transformers (HuggingFace)
+- Torch
 
 ---
 
-## 📸 Demo
+## 🔧 Installation
 
-![App Screenshot](screenshot.png)
-
----
-
-## 🛠️ Installation
+Clone the repo and install dependencies:
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
 cd YOUR_REPO_NAME
 python -m venv venv
-venv\Scripts\activate  # On Windows
-# Or source venv/bin/activate for macOS/Linux
+venv\Scripts\activate        # On Windows
+# or source venv/bin/activate  # On macOS/Linux
 
 pip install -r requirements.txt
