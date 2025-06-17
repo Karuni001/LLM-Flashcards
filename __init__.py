@@ -1,0 +1,1 @@
+"""Initialize flashcard generator package."""
